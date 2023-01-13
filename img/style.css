@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #0fe2f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0fe2f1;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: rgb(0, 255, 76);
+  
+  
+  }
+  /* Define the container for the grid */
+.grid-container {
+  display: grid; /* Use the grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Divide the container into 3 equal columns */
+  grid-gap: 10px; /* Add a gap of 10px between each grid item */
+}
+
+/* Define the styles for each grid item */
+.grid-item {
+  background-color: #f1f1f1; /* Add a light gray background color */
+  padding: 20px; /* Add padding to the content inside each grid item */
+  text-align: center; /* Center the text inside each grid item */
+}
+
+/* Add a class for the grid items that will be used as headers */
+.grid-header {
+  grid-column: span 3; /* Span the header across all 3 columns */
+  background-color: #333; /* Add a dark gray background color */
+  color: #fff; /* Make the text white */
+  font-size: 1.5em; /* Increase the font size for the headers */}

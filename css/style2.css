@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #f1c40f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1c40f;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+}
+menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.menu-item {
+  /* styling for each grid item, such as background color, padding, etc. */
+  background-color: #0ff1f1;
+  padding: 50px;
+  text-align:left;
+  }
+  .grid-container {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    flex: 1; /* Allow the items to have equal width */
+    margin: 10px; /* Add a margin around each item */ }
